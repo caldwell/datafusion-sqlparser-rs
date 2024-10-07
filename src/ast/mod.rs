@@ -5728,6 +5728,7 @@ pub enum ObjectType {
     Role,
     Sequence,
     Stage,
+    Type,
 }
 
 impl fmt::Display for ObjectType {
@@ -5741,6 +5742,7 @@ impl fmt::Display for ObjectType {
             ObjectType::Role => "ROLE",
             ObjectType::Sequence => "SEQUENCE",
             ObjectType::Stage => "STAGE",
+            ObjectType::Type => "TYPE",
         })
     }
 }
